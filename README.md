@@ -1,5 +1,5 @@
 # Sitemap_Monolith
-Archives an entire website using monolith and sitemap-generator
+Archives an entire website using monolith and sitemap-generator (and neatly puts it in a nice directory)
 
 USAGE: Download and execute main.py as a superuser (sudo python3 main.py)
 
