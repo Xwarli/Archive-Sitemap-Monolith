@@ -96,9 +96,3 @@ def main():
 	cleanup(sitemap_file)
 	
 main()
-
-
-
-
-
-

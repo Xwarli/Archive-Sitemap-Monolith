@@ -1,6 +1,8 @@
 import subprocess
 
-print("Crawling...")
-subprocess.run("sudo python3 crawler.py", shell=True)
-print("\nArchiving...")
+try:
+	subprocess.run("sudo python3 crawler.py", shell=True)
+except:
+	pass
+	
 subprocess.run("sudo python3 sitemap-monolith.py", shell=True)
